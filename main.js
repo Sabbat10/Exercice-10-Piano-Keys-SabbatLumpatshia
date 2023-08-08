@@ -12,8 +12,9 @@ function keyPlay(event) {
 }
 // Write a named function with event handler properties
 
+
 function keyReturn(event) {
-  event.target.backgroundColor = "";
+  event.target.style.backgroundColor = "";
 }
 
 function assignEvent(note) {
