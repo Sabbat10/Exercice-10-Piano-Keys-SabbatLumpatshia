@@ -65,7 +65,26 @@ nextTwo.addEventListener("click", function() {
 });
 
 // Write anonymous event handler property and function for the third progress button
+nextThree.addEventListener("click", function() {
+  startOver.hidden = false;
+  nextThree.hidden = true;
 
+  document.getElementById('word-one').innerHTML = 'HAP-';
+  document.getElementById('word-two').innerHTML = 'PY';
+  document.getElementById('word-three').innerHTML = 'BIRTH';
+  document.getElementById('word-four').innerHTML = 'DAY'
+  document.getElementById('word-five').innerHTML= 'TO ';
+  document.getElementById('word-six').innerHTML='YOU!';
+
+    lastLyric.style.display='none';
+
+     document.getElementbyId('letter-note-one').innerhtml='F';
+    document.getElementbyId('letter-note-two').innerhtml='F';
+   document.getElementbyId('letter-note-three').innerHTML='E';
+    document.getElementById('letter -note-four').innerHtml ='C ';
+      document.getElementById('letter - note - five'). innerHtml 	= 'D';
+      Document.getElementById('lettre - note-six'). InnerHTML 	= 'C ';
+});
 
 // This is the event handler property and function for the startOver button
 startOver.onclick = function() {
